@@ -1,0 +1,20 @@
+{
+  "name": "FAAH",
+  "version": "0.0.0",
+  "authors": [
+    "matarillo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-promise": "~3.0.2",
+    "fetch": "~0.10.1"
+  }
+}

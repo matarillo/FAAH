@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Factor and a Half Authentication Demo</title>
+    <style>
+        fieldset > div > label {
+            display: inline-block;
+            width: 150px;
+        }
+        fieldset > div > input {
+            width: 250px;
+        }
+        #login {
+            margin-top: 5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Factor and a Half Authentication Demo</h1>
+    <p><a href="http://blogs.msdn.com/b/shawnhernan/archive/2016/01/12/factor-and-a-half-authentication.aspx">original blog entry</a></p>
+    <div id="register">
+        <form>
+            <fieldset>
+                <legend>register</legend>
+                <div><label for="r_username">username</label><input type="text" id="r_username" /></div>
+                <div><label for="r_password1">password</label><input type="password" id="r_password1" /></div>
+                <div><label for="r_password2">second password</label><input type="password" id="r_password2" /></div>
+                <div><button type="button">register</button></div>
+            </fieldset>
+        </form>
+    </div>
+    <div id="login">
+        <form>
+            <fieldset>
+                <legend>log in</legend>
+                <div><label for="username">username</label><input type="text" id="username" /></div>
+                <div><label for="password1">password</label><input type="password" id="password1" /></div>
+                <div><label for="catalyst">catalyst</label><input type="file" id="catalyst" /></div>
+                <div><label for="password2">second password</label><input type="password" id="password2" /></div>
+                <div><button type="button">log in</button></div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
